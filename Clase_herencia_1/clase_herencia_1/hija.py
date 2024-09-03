@@ -3,16 +3,19 @@ import madre as cl
 # Crear objetos de clase persona
 per1 = cl.persona("Juan", 70)
 per2 = cl.persona("Maria", 50)
+
 #Asignar valor a las propiedades
 per1.peso = 75
 per2.peso = 57
 per2.nombre += " Elena"
+
 #Usar los metodos
 per1.caminar()
 per2.comer()
 per2.comer()
 print(per1)
 print(per2)
+
 #print("Nombre y Peso: ", per1.nombre, per1.peso)
 #print("Nombre {} y Peso: {} ".format(per2.nombre, per2.peso))
 per1.caminar(16)
